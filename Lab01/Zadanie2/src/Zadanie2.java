@@ -7,7 +7,6 @@ public class Zadanie2 extends JFrame {
     private JPanel JPanel;
     private JButton stworzTrojkatButton;
     private JTextField wysokosc;
-    private JTextField podstawa;
 
     public Zadanie2() {
         super("Zadanie 2");
@@ -20,7 +19,6 @@ public class Zadanie2 extends JFrame {
             public void actionPerformed(ActionEvent e) {
 
                     int h = Integer.parseInt(wysokosc.getText());
-                    int p = Integer.parseInt(podstawa.getText());
 
                     StringBuilder trojkat = new StringBuilder();
                     for (int i = 1; i <= h; i++) {
